@@ -1,7 +1,10 @@
 
 body {
     text-align: center;
-    margin: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
     line-height: 1.5;
 }
 
@@ -12,10 +15,22 @@ section {
     border-right: 0.5px solid #DDDDDD;
 }
 
+.cv-navs {
+    width: 100%;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 0.5px solid #DDDDDD;
+    font-size: 11pt;
+}
+
 .cv-header {
     height: 10vh;
     background-image: linear-gradient(to bottom right, #fff1eb, #ace0f9);
     border-top: 0.5px solid #DDDDDD;
+    margin-top: 60px;
 }
 
 .cv-body {
