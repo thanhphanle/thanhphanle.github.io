@@ -20,7 +20,7 @@ section {
 
 .cv-body {
     min-height: 150vh;
-    background-color: #F5F5F5;
+    background-color: rgb(250, 250, 250);
 }
 
 .cv-footer {
