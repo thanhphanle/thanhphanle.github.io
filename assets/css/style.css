@@ -1,0 +1,120 @@
+
+body {
+    text-align: center;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+section {
+    margin: auto;
+    max-width: 950px;
+    border-left: 0.5px solid #DDDDDD;
+    border-right: 0.5px solid #DDDDDD;
+}
+
+.cv-header {
+    height: 10vh;
+    background-image: linear-gradient(to bottom right, #fff1eb, #ace0f9);
+    border-top: 0.5px solid #DDDDDD;
+}
+
+.cv-body {
+    min-height: 150vh;
+    background-color: #F5F5F5;
+}
+
+.cv-footer {
+    height: 10vh;
+    background-color: #DDDDDD;
+    border-bottom: 0.5px solid #DDDDDD;
+}
+
+.div-header {
+    padding-top: 18px;
+}
+
+.div-footer {
+    padding-top: 20px;
+    color: gray;
+    font-size: 13px;
+}
+
+.div-body {
+    padding: 25px;
+}
+
+.img-profile {
+    width: 45%;
+    border-radius: 50%;
+}
+
+.div-name {
+    margin-top: 30px;
+}
+
+.body-left {
+    margin-right: 10px;
+}
+
+.body-right {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.body-center {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.tb-contact {
+    width: 100%;
+}
+
+.tb-contact tr { 
+    /*line-height: 30px;*/
+}
+
+.tb-contact tr td { 
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.h3-title {
+    border-bottom: 0.5px solid gray;
+    color: rgb(100, 100, 100);
+    text-align: left;
+    font-size: 18pt;
+}
+
+.fas {
+    color: rgb(100, 100, 100);
+}
+
+.tb-social {
+    width: 100%;
+}
+
+.img-social {
+    width: 25px;
+}
+
+.tb-education {
+    width: 100%;
+    text-align: left;
+}
+
+.div-skill {
+    text-align: left;
+}
+
+.tb-skill {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.ic-list {
+    font-size: 10pt;
+}
