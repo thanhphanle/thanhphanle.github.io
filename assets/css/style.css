@@ -82,11 +82,16 @@ section {
     padding-bottom: 5px;
 }
 
+.h2-name {
+    font-family: 'Roboto', sans-serif;
+}
+
 .h3-title {
     border-bottom: 0.5px solid gray;
     color: rgb(100, 100, 100);
     text-align: left;
     font-size: 18pt;
+    font-family: 'Roboto', sans-serif;
 }
 
 .fas {
@@ -117,4 +122,9 @@ section {
 
 .ic-list {
     font-size: 10pt;
+}
+
+.ic-link {
+    font-size: 16pt;
+    color: gray;
 }
