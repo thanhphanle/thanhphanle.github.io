@@ -7,7 +7,7 @@
 }
 
 .timeline-item {
-  padding: 3em 2em 2em;
+  padding: 3em 2em 1em;
   position: relative;
   color: rgba(0, 0, 0, 0.7);
   border-left: 2px solid rgba(0, 0, 0, 0.3);
@@ -30,9 +30,9 @@
 .timeline-item::before {
   content: attr(date-is);
   position: absolute;
-  left: 2em;
+  left: 1em;
   font-weight: bold;
-  top: 1em;
+  top: 0.8em;
   display: block;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -47,7 +47,7 @@
   left: -7px;
   border-radius: 10px;
   content: '';
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid orange;
   background: white;
 }
 .timeline-item:last-child {
