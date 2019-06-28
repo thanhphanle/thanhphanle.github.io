@@ -5,16 +5,16 @@ function drawAnnotations() {
     var data = google.visualization.arrayToDataTable([
         ['Skill', 'Experience', { role: 'style' }],
         ['Java', 3.5, 'opacity: 0.5; color: blue'],
-        ['Javascript', 1.5, 'yellow'],
-        ['ReactJs', 1, 'orange'],
-        ['PostgreSQL', 2, 'red'],
-        ['Oracle', 1, 'green'],
-        ['Linux', 1, 'gray']
+        ['NodeJs', 0.5, 'opacity: 0.5; color: yellow'],
+        ['ReactJs', 1, 'opacity: 0.5; color: orange'],
+        ['PostgreSQL', 2, 'opacity: 0.5; color: red'],
+        ['Oracle', 1, 'opacity: 0.5; color: green'],
+        ['Linux', 1, 'opacity: 0.5; color: gray']
     ]);
 
 
     var options = {
-        title: 'My skills chart',
+        title: 'Skill Experience',
         chartArea: { width: '50%' },
         colors: ['#66CDAA','orange'],
         legend: {position: 'none'},
