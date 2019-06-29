@@ -2,15 +2,15 @@
 body {
     text-align: center;
     margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     line-height: 1.5;
 }
 
 section {
     margin: auto;
-    max-width: 950px;
+    max-width: 800px;
     border-left: 0.5px solid #DDDDDD;
     border-right: 0.5px solid #DDDDDD;
 }
@@ -56,7 +56,7 @@ section {
 }
 
 .div-body {
-    padding: 25px;
+    padding: 10px;
 }
 
 .img-profile {

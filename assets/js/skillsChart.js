@@ -5,11 +5,11 @@ function drawAnnotations() {
     var data = google.visualization.arrayToDataTable([
         ['Skill', 'Experience', { role: 'style' }],
         ['Java', 3.5, 'opacity: 0.5; color: blue'],
-        ['NodeJs', 0.5, 'opacity: 0.5; color: yellow'],
-        ['ReactJs', 1, 'opacity: 0.5; color: orange'],
         ['PostgreSQL', 2, 'opacity: 0.5; color: red'],
+        ['CentOS', 1.5, 'opacity: 0.5; color: gray'],
+        ['ReactJs', 1, 'opacity: 0.5; color: orange'],
+        ['NodeJs', 0.5, 'opacity: 0.5; color: yellow'],
         ['Oracle', 1, 'opacity: 0.5; color: green'],
-        ['Linux', 1, 'opacity: 0.5; color: gray']
     ]);
 
 
