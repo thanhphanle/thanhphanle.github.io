@@ -1,10 +1,10 @@
 
 body {
-    text-align: center;
+    text-align: justify;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     line-height: 1.5;
 }
 
@@ -46,6 +46,7 @@ section {
 
 .div-header {
     padding-top: 18px;
+    text-align: center;
 }
 
 .div-footer {
@@ -70,6 +71,7 @@ section {
 
 .body-left {
     margin-right: 10px;
+    text-align: center;
 }
 
 .body-right {
@@ -88,10 +90,6 @@ section {
     width: 100%;
 }
 
-.tb-contact tr { 
-    /*line-height: 30px;*/
-}
-
 .tb-contact tr td { 
     padding-left: 15px;
     padding-top: 5px;
@@ -107,7 +105,8 @@ section {
     color: rgb(100, 100, 100);
     text-align: left;
     font-size: 18pt;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .fas {
@@ -148,4 +147,13 @@ section {
 .div-row {
     min-height: 100%;
     height: 100%;
+}
+
+.description-job {
+    text-align: left;
+}
+
+.job-title {
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
