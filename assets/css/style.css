@@ -4,13 +4,14 @@ body {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     line-height: 1.5;
+    background-color: rgb(240, 240, 240);
 }
 
 section {
     margin: auto;
-    max-width: 800px;
+    max-width: 900px;
     border-left: 0.5px solid #DDDDDD;
     border-right: 0.5px solid #DDDDDD;
 }
@@ -27,7 +28,7 @@ section {
 }
 
 .cv-header {
-    height: 10vh;
+    height: 8vh;
     background-image: linear-gradient(to bottom right, #fff1eb, #ace0f9);
     border-top: 0.5px solid #DDDDDD;
     margin-top: 60px;
@@ -35,11 +36,14 @@ section {
 
 .cv-body {
     min-height: 150vh;
+    /*
     background-color: rgb(250, 250, 250);
+    */
+    background-color: white;
 }
 
 .cv-footer {
-    height: 10vh;
+    height: 8vh;
     background-color: #DDDDDD;
     border-bottom: 0.5px solid #DDDDDD;
 }
@@ -156,4 +160,12 @@ section {
 .job-title {
     margin-left: 10px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.left-footer-col {
+    text-align: left;
+}
+
+.right-footer-col {
+    text-align: right;
 }
