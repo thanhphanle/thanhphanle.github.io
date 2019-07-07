@@ -47,7 +47,7 @@
   left: -7px;
   border-radius: 10px;
   content: '';
-  border: 2px solid orange;
+  border: 2px solid #ffc425;
   background: white;
 }
 .timeline-item:last-child {

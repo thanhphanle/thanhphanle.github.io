@@ -4,7 +4,7 @@ body {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     line-height: 1.5;
     background-color: rgb(240, 240, 240);
 }
@@ -29,7 +29,10 @@ section {
 
 .cv-header {
     height: 8vh;
+    /*
     background-image: linear-gradient(to bottom right, #fff1eb, #ace0f9);
+    */
+    background-color: white;
     border-top: 0.5px solid #DDDDDD;
     margin-top: 60px;
 }
@@ -106,7 +109,7 @@ section {
 
 .h3-title {
     border-bottom: 0.5px solid gray;
-    color: rgb(100, 100, 100);
+    color: 	#f37735;
     text-align: left;
     font-size: 18pt;
     font-family: 'Courier New', Courier, monospace;
@@ -123,11 +126,6 @@ section {
 
 .img-social {
     width: 25px;
-}
-
-.tb-education {
-    width: 100%;
-    text-align: left;
 }
 
 .div-skill {
@@ -168,4 +166,13 @@ section {
 
 .right-footer-col {
     text-align: right;
+}
+
+.education-div {
+    text-align: left;
+}
+
+.item-row {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
