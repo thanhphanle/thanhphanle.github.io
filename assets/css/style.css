@@ -9,6 +9,10 @@ body {
     background-color: rgb(240, 240, 240);
 }
 
+a {
+    color: #00aedb;
+}
+
 section {
     margin: auto;
     max-width: 900px;
@@ -70,6 +74,7 @@ section {
 .img-profile {
     width: 45%;
     border-radius: 50%;
+    margin-top: 40px;
 }
 
 .div-name {
@@ -124,21 +129,8 @@ section {
     width: 100%;
 }
 
-.img-social {
-    width: 25px;
-}
-
 .div-skill {
     text-align: left;
-}
-
-.tb-skill {
-    width: 100%;
-    margin-left: 20px;
-}
-
-.ic-list {
-    font-size: 10pt;
 }
 
 .ic-link {
