@@ -4,7 +4,7 @@ google.charts.setOnLoadCallback(drawAnnotations);
 function drawAnnotations() {
     var data = google.visualization.arrayToDataTable([
         ['Skill', 'Experience', { role: 'style' }],
-        ['Java', 3.5, 'opacity: 0.8; color: #1e9ae0'],
+        ['Java', 3, 'opacity: 0.8; color: #1e9ae0'],
         ['PostgreSQL', 2, 'opacity: 0.8; color: #1e9ae0'],
         ['CentOS', 1.5, 'opacity: 0.8; color: #1e9ae0'],
         ['ReactJs', 1, 'opacity: 0.8; color: #1e9ae0'],
@@ -42,7 +42,7 @@ function drawAnnotations() {
         hAxis: {
             title: 'Year of experience',
             minValue: 0,
-            maxValue: 6,
+            maxValue: 4,
         },
         /*
         vAxis: {
