@@ -4,20 +4,23 @@ google.charts.setOnLoadCallback(drawAnnotations);
 function drawAnnotations() {
     var data = google.visualization.arrayToDataTable([
         ['Skill', 'Experience', { role: 'style' }],
-        ['Java', 3.5, 'opacity: 0.5; color: blue'],
-        ['PostgreSQL', 2, 'opacity: 0.5; color: red'],
-        ['CentOS', 1.5, 'opacity: 0.5; color: gray'],
-        ['ReactJs', 1, 'opacity: 0.5; color: orange'],
-        ['NodeJs', 0.5, 'opacity: 0.5; color: yellow'],
-        ['Oracle', 1, 'opacity: 0.5; color: green'],
+        ['Java', 3.5, 'opacity: 0.8; color: #1e9ae0'],
+        ['PostgreSQL', 2, 'opacity: 0.8; color: #1e9ae0'],
+        ['CentOS', 1.5, 'opacity: 0.8; color: #1e9ae0'],
+        ['ReactJs', 1, 'opacity: 0.8; color: #1e9ae0'],
+        ['NodeJs', 0.5, 'opacity: 0.8; color: #1e9ae0'],
+        ['Oracle', 1, 'opacity: 0.8; color: #1e9ae0'],
     ]);
 
 
     var options = {
         title: 'Skill Experience',
-        chartArea: { width: '50%' },
-        colors: ['#66CDAA','orange'],
-        legend: {position: 'none'},
+        chartArea: { width: '65%' },
+        colors: ['#66CDAA', 'orange'],
+        legend: { position: 'none' },
+        bar: {
+            groupWidth: '70%'
+        },
         annotations: {
             alwaysOutside: true,
             textStyle: {
@@ -37,9 +40,9 @@ function drawAnnotations() {
             }
         },
         hAxis: {
-            title: 'Year',
+            title: 'Year of experience',
             minValue: 0,
-            maxValue: 4,
+            maxValue: 6,
         },
         /*
         vAxis: {
