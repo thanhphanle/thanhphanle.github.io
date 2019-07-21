@@ -34,9 +34,9 @@
   font-weight: bold;
   top: 0.8em;
   display: block;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 .timeline-item::after {
   width: 12px;
@@ -46,12 +46,23 @@
   position: absolute;
   left: -7px;
   border-radius: 10px;
-  content: '';
-  border: 2px solid #ffc425;
+  content: "";
+  border: 2px solid rgba(0, 0, 0, 0.3);
   background: white;
 }
 .timeline-item:last-child {
-  -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
-     border-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
-     border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent) 1 100%;
+  -o-border-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 60%,
+      transparent
+    )
+    1 100%;
+  border-image: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.3) 60%,
+      transparent
+    )
+    1 100%;
+  border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent)
+    1 100%;
 }
