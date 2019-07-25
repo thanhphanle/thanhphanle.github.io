@@ -1,68 +1,72 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700");
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700');
 
 .timeline-container {
-  max-width: 800px;
-  width: 90%;
-  margin: 0 auto;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .timeline-item {
-  padding: 2.5em 0.8em 0.5em;
-  position: relative;
-  color: rgba(0, 0, 0, 0.7);
-  border-left: 2px solid rgba(0, 0, 0, 0.3);
+    padding: 2.5em 0.8em 0.5em;
+    position: relative;
+    color: rgba(0, 0, 0, 0.7);
+    border-left: 2px solid rgba(0, 0, 0, 0.3);
 }
 .timeline-item h1 {
-  font-size: 15pt;
-  text-align: left;
+    font-size: 15pt;
+    text-align: left;
 }
 .timeline-item p {
-  font-size: 1rem;
-  text-align: left;
+    font-size: 1rem;
+    text-align: left;
 }
 .timeline-item table {
-  width: 100%;
-  text-align: left;
+    width: 100%;
+    text-align: left;
 }
 .timeline-item table td {
-  padding-left: 15px;
+    padding-left: 15px;
 }
 .timeline-item::before {
-  content: attr(date-is);
-  position: absolute;
-  left: 1em;
-  font-weight: bold;
-  top: 0.8em;
-  display: block;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 0.9rem;
+    content: attr(date-is);
+    position: absolute;
+    left: 1em;
+    font-weight: bold;
+    top: 0.8em;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
 }
 .timeline-item::after {
-  width: 12px;
-  height: 12px;
-  display: block;
-  top: 1em;
-  position: absolute;
-  left: -7px;
-  border-radius: 10px;
-  content: "";
-  border: 2px solid rgba(0, 0, 0, 0.3);
-  background: white;
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 1em;
+    position: absolute;
+    left: -7px;
+    border-radius: 10px;
+    content: '';
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background: white;
 }
 .timeline-item:last-child {
-  -o-border-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.3) 60%,
-      transparent
-    )
-    1 100%;
-  border-image: -webkit-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0.3) 60%,
-      transparent
-    )
-    1 100%;
-  border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, transparent)
-    1 100%;
+    -o-border-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.3) 60%,
+            transparent
+        )
+        1 100%;
+    border-image: -webkit-linear-gradient(
+            top,
+            rgba(0, 0, 0, 0.3) 60%,
+            transparent
+        )
+        1 100%;
+    border-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.3) 60%,
+            transparent
+        )
+        1 100%;
 }

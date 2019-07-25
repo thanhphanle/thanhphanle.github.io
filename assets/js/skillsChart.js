@@ -9,9 +9,8 @@ function drawAnnotations() {
         ['CentOS', 1.5, 'opacity: 0.8; color: #1e9ae0'],
         ['ReactJs', 1, 'opacity: 0.8; color: #1e9ae0'],
         ['NodeJs', 0.5, 'opacity: 0.8; color: #1e9ae0'],
-        ['Oracle', 1, 'opacity: 0.8; color: #1e9ae0'],
+        ['Oracle', 1, 'opacity: 0.8; color: #1e9ae0']
     ]);
-
 
     var options = {
         title: 'Skill Experience',
@@ -34,22 +33,26 @@ function drawAnnotations() {
                 gradient: {
                     color1: '#f3e5f5',
                     color2: '#f3e5f5',
-                    x1: '0%', y1: '0%',
-                    x2: '100%', y2: '100%'
+                    x1: '0%',
+                    y1: '0%',
+                    x2: '100%',
+                    y2: '100%'
                 }
             }
         },
         hAxis: {
             title: 'Year of experience',
             minValue: 0,
-            maxValue: 4,
-        },
+            maxValue: 4
+        }
         /*
         vAxis: {
             title: 'City'
         }
         */
     };
-    var chart = new google.visualization.BarChart(document.getElementById('skills_chart'));
+    var chart = new google.visualization.BarChart(
+        document.getElementById('skills_chart')
+    );
     chart.draw(data, options);
 }

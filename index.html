@@ -1,340 +1,425 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="shortcut icon" href="./assets/images/thanhphan.jpg" />
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="./assets/images/thanhphan.jpg" />
+        <!-- Import bootstrap css from https://getbootstrap.com/ -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        />
 
-    <!-- Import bootstrap css from https://getbootstrap.com/ -->
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <!-- Import fontawesome from https://cdnjs.com/libraries/font-awesome -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        />
 
-    <!-- Import fontawesome from https://cdnjs.com/libraries/font-awesome -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+        <!-- Import my css -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./assets/css/timeline.css"
+        />
 
-    <!-- Import my css -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/timeline.css" />
+        <!-- Google Chart -->
+        <script
+            type="text/javascript"
+            src="https://www.gstatic.com/charts/loader.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="./assets/js/skillsChart.js"
+        ></script>
 
-    <!-- Google Chart -->
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="./assets/js/skillsChart.js"></script>
+        <title>Phan Le Thanh's Profile</title>
+    </head>
 
-    <title>Phan Le Thanh's Profile</title>
+    <body>
+        <div class="cv-navs">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#certificate">Certificate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+            </ul>
+        </div>
 
-</head>
+        <section class="cv-header"></section>
 
-<body>
-
-    <div class="cv-navs">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="#about-me">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skill">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#certificate">Certificate</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#experience">Experience</a>
-            </li>
-        </ul>
-    </div>
-
-    <section class="cv-header">
-    </section>
-
-    <section class="cv-body">
-        <div class="container div-body">
-            <div class="row">
-                <div class="col body-left">
-                    <img class="img-profile" src="./assets/images/thanhphan.jpg" />
-                    <div class="div-name">
-                        <h2 class="h2-name">Phan Lê Thanh</h2>
-                        <p><i class="fas fa-coffee"></i><span class="job-title">Software Developer</span></p>
-                    </div>
-                    <div class="block-quote">
-                        <span>Enjoy building applications and work as a senior developer of FPT Digital at present. My real journey
-                            of software just have passed for 4 years.</span>
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
-                <div id="about-me" class="col body-right">
-                    <h3 class="h3-title">PERSONAL INFORMATION</h3>
-                    <table class="tb-contact">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <i class="fas fa-envelope"></i>
-                                </td>
-                                <td>phanlethanh93@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <i class="fas fa-phone"></i>
-                                </td>
-                                <td>(+84) 353349110</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <i class="fas fa-birthday-cake"></i>
-                                </td>
-                                <td>August 1, 1993</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <i class="fas fa-mars"></i>
-                                </td>
-                                <td>Male</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <i class="fas fa-home"></i>
-                                </td>
-                                <td>Ben Tre Province</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <i class="fas fa-map-marker-alt"></i>
-                                </td>
-                                <td>20, 442 street, Tang Nhon Phu A Ward, District 9, Ho Chi Minh City, Viet Nam</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <br />
-                    <h3 class="h3-title">ABOUT ME</h3>
-                    <div>
-                        <p>Like the simple.<br />Hobbies: traveling somewhere by motorcycle,
-                            reading
-                            book and shooting some photos.<br />
-                            My travel blog: <a href="https://buistory.com" target="_blank">https://buistory.com</a></p>
-                    </div>
-                </div>
-            </div>
-
-            <div id="education" class="row">
-                <div class="col body-center">
-                    <h3 class="h3-title">EDUCATION</h3>
-                    <div class="container education-div">
-                        <div class="row item-row">
-                            <div class="col-3">
-                                2011 - 2015
-                            </div>
-                            <div class="col-3">
-                                Bachelor of IT
-                            </div>
-                            <div class="col-6">
-                                VNUHCM - University of Science (Ho Chi Minh City)
-                            </div>
+        <section class="cv-body">
+            <div class="container div-body">
+                <div class="row">
+                    <div class="col body-left">
+                        <img
+                            class="img-profile"
+                            src="./assets/images/thanhphan.jpg"
+                        />
+                        <div class="div-name">
+                            <h2 class="h2-name">Phan Lê Thanh</h2>
+                            <p>
+                                <i class="fas fa-coffee"></i>
+                                <span class="job-title">
+                                    Software Developer
+                                </span>
+                            </p>
                         </div>
-                        <div class="row item-row">
-                            <div class="col-3">
-                                2008 - 2011
-                            </div>
-                            <div class="col-3">
-                                High School
-                            </div>
-                            <div class="col-6">
-                                Phan Thanh Gian High School (Ben Tre)
-                            </div>
+                        <div class="block-quote">
+                            <span
+                                >Enjoy building applications and work as a
+                                senior developer of FPT Digital at present. My
+                                real journey of software just have passed for 4
+                                years.</span
+                            >
                         </div>
+                        <div></div>
                     </div>
-                </div>
-            </div>
-
-            <div id="skills" class="row">
-                <div class="col body-center">
-                    <h3 class="h3-title">SKILLS</h3>
-                    <div class="div-skill">
-                        <p>Technical skills:</p>
-                        <div id="skills_chart"></div>
+                    <div id="about-me" class="col body-right">
+                        <h3 class="h3-title">PERSONAL INFORMATION</h3>
+                        <table class="tb-contact">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <i class="fas fa-envelope"></i>
+                                    </td>
+                                    <td>phanlethanh93@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="fas fa-phone"></i>
+                                    </td>
+                                    <td>(+84) 353349110</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="fas fa-birthday-cake"></i>
+                                    </td>
+                                    <td>August 1, 1993</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="fas fa-mars"></i>
+                                    </td>
+                                    <td>Male</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="fas fa-home"></i>
+                                    </td>
+                                    <td>Ben Tre Province</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </td>
+                                    <td>
+                                        20, 442 street, Tang Nhon Phu A Ward,
+                                        District 9, Ho Chi Minh City, Viet Nam
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                         <br />
-                        <p>Language skills:</p>
+                        <h3 class="h3-title">ABOUT ME</h3>
+                        <div>
+                            <p>
+                                Like the simple.<br />Hobbies: traveling
+                                somewhere by motorcycle, reading book and
+                                shooting some photos.<br />
+                                My travel blog:
+                                <a href="https://buistory.com" target="_blank">
+                                    https://buistory.com
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="education" class="row">
+                    <div class="col body-center">
+                        <h3 class="h3-title">EDUCATION</h3>
+                        <div class="container education-div">
+                            <div class="row item-row">
+                                <div class="col-3">
+                                    2011 - 2015
+                                </div>
+                                <div class="col-3">
+                                    Bachelor of IT
+                                </div>
+                                <div class="col-6">
+                                    VNUHCM - University of Science (Ho Chi Minh
+                                    City)
+                                </div>
+                            </div>
+                            <div class="row item-row">
+                                <div class="col-3">
+                                    2008 - 2011
+                                </div>
+                                <div class="col-3">
+                                    High School
+                                </div>
+                                <div class="col-6">
+                                    Phan Thanh Gian High School (Ben Tre)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="skills" class="row">
+                    <div class="col body-center">
+                        <h3 class="h3-title">SKILLS</h3>
+                        <div class="div-skill">
+                            <p>Technical skills:</p>
+                            <div id="skills_chart"></div>
+                            <br />
+                            <p>Language skills:</p>
+                            <div class="container">
+                                <div class="row item-row">
+                                    <div class="col">
+                                        Vietnamese: native
+                                    </div>
+                                </div>
+                                <div class="row item-row">
+                                    <div class="col">
+                                        English: intermediate level, I can
+                                        communicate easily in english
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="certificate" class="row">
+                    <div class="col body-center">
+                        <h3 class="h3-title">CERTIFICATE</h3>
                         <div class="container">
                             <div class="row item-row">
-                                <div class="col">
-                                    Vietnamese: native
+                                <div class="col-3">
+                                    08/2017
+                                </div>
+                                <div class="col-9">
+                                    GE Predix (IoT)
                                 </div>
                             </div>
-                            <div class="row item-row">
-                                <div class="col">
-                                    English: intermediate level, I can communicate easily in english
+                        </div>
+                    </div>
+                </div>
+
+                <div id="experience" class="row">
+                    <div class="col body-center">
+                        <h3 class="h3-title">EXPERIENCE</h3>
+                        <div class="timeline-container">
+                            <div class="timeline-item" date-is="Now">
+                                <h1>Officer at FPT Software and FPT Digital</h1>
+                                <div class="container description-job">
+                                    <div class="row">
+                                        <div class="col-2">Position</div>
+                                        <div class="col-10">
+                                            Senior Software Developer
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2">Jobs</div>
+                                        <div class="col-10">
+                                            Support for FPT Retail. Design,
+                                            build, deploy a tool to monitor
+                                            camera, develop API gateway and also
+                                            migrate other subsystems
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item" date-is="July 2018">
+                                <h1>Start-up on fitness market</h1>
+                                <div class="container description-job">
+                                    <div class="row">
+                                        <div class="col-2">Position</div>
+                                        <div class="col-10">
+                                            Full-stack Developer
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2">Jobs</div>
+                                        <div class="col-10">
+                                            Design, build, deploy and operate
+                                            website (ReactJS), iOS app for ideas
+                                            for fitness domain
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item" date-is="November 2017">
+                                <h1>Officer at FPT Software</h1>
+                                <div class="container description-job">
+                                    <div class="row">
+                                        <div class="col-2">Position</div>
+                                        <div class="col-10">
+                                            Junior Software Developer
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2">Jobs</div>
+                                        <div class="col-10">
+                                            Develop and maintain Enterprise Web
+                                            Applications, Xamarin application
+                                            and maintain PostgreSQL & Oracle
+                                            database
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item" date-is="July 2015">
+                                <h1>Thesis at University of Science</h1>
+                                <div class="container description-job">
+                                    <div class="row">
+                                        <div class="col-2">Position</div>
+                                        <div class="col-10">Researcher</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2">Jobs</div>
+                                        <div class="col-10">
+                                            Research and build secure voice and
+                                            video chat application for iOS
+                                            platform
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item" date-is="August 2014">
+                                <h1>
+                                    Full time internship at NTT Data Vietnam (2
+                                    months)
+                                </h1>
+                                <div class="container description-job">
+                                    <div class="row">
+                                        <div class="col-2">Position</div>
+                                        <div class="col-10">
+                                            Junior Java Developer
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2">Jobs</div>
+                                        <div class="col-10">
+                                            Study and practise internal
+                                            technologies about automation
+                                            development and automation testing
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item" date-is="July 2014">
+                                <h1>
+                                    Part-time internship at Global CyberSoft (3
+                                    months)
+                                </h1>
+                                <div class="container description-job">
+                                    <div class="row">
+                                        <div class="col-2">Position</div>
+                                        <div class="col-10">
+                                            Junior Java Developer
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2">Jobs</div>
+                                        <div class="col-10">
+                                            Study and practise Software
+                                            Development Lifecycle
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div id="certificate" class="row">
-                <div class="col body-center">
-                    <h3 class="h3-title">CERTIFICATE</h3>
-                    <div class="container">
-                        <div class="row item-row">
-                            <div class="col-3">
-                                08/2017
-                            </div>
-                            <div class="col-9">
-                                GE Predix (IoT)
-                            </div>
-                        </div>
+        <section class="cv-footer">
+            <div class="container div-footer">
+                <div
+                    class="row align-items-center justify-content-center div-row"
+                >
+                    <div class="col left-footer-col">
+                        2019
+                    </div>
+                    <div class="col-6">
+                        <table class="tb-social">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a
+                                            href="https://www.facebook.com/fanlethanh"
+                                            target="_blank"
+                                        >
+                                            <i class="fab fa-facebook ic-link">
+                                            </i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a
+                                            href="https://www.instagram.com/thanhphanle"
+                                            target="_blank"
+                                        >
+                                            <i class="fab fa-instagram ic-link">
+                                            </i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a
+                                            href="https://github.com/thanhpl/thanhpl.github.io"
+                                            target="_blank"
+                                        >
+                                            <i class="fab fa-github ic-link">
+                                            </i>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a
+                                            href="https://stackoverflow.com/users/8417980/thanhphan"
+                                            target="_blank"
+                                        >
+                                            <i
+                                                class="fab fa-stack-overflow ic-link"
+                                            >
+                                            </i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col right-footer-col">
+                        Design by ThanhPL
                     </div>
                 </div>
             </div>
-
-            <div id="experience" class="row">
-                <div class="col body-center">
-                    <h3 class="h3-title">EXPERIENCE</h3>
-                    <div class="timeline-container">
-
-                        <div class="timeline-item" date-is='Now'>
-                            <h1>Officer at FPT Software and FPT Digital</h1>
-                            <div class="container description-job">
-                                <div class="row">
-                                    <div class="col-2">Position</div>
-                                    <div class="col-10">Senior Software Developer</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2">Jobs</div>
-                                    <div class="col-10">Support for FPT Retail. Design, build, deploy a tool to monitor
-                                        camera, develop API
-                                        gateway and also migrate other subsystems</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item" date-is='July 2018'>
-                            <h1>Start-up on fitness market</h1>
-                            <div class="container description-job">
-                                <div class="row">
-                                    <div class="col-2">Position</div>
-                                    <div class="col-10">Full-stack Developer</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2">Jobs</div>
-                                    <div class="col-10">Design, build, deploy and operate website (ReactJS), iOS app for
-                                        ideas for
-                                        fitness
-                                        domain</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item" date-is='November 2017'>
-                            <h1>Officer at FPT Software</h1>
-                            <div class="container description-job">
-                                <div class="row">
-                                    <div class="col-2">Position</div>
-                                    <div class="col-10">Junior Software Developer</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2">Jobs</div>
-                                    <div class="col-10">Develop and maintain Enterprise Web Applications, Xamarin
-                                        application and
-                                        maintain PostgreSQL & Oracle database</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item" date-is='July 2015'>
-                            <h1>Thesis at University of Science</h1>
-                            <div class="container description-job">
-                                <div class="row">
-                                    <div class="col-2">Position</div>
-                                    <div class="col-10">Researcher</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2">Jobs</div>
-                                    <div class="col-10">Research and build secure voice and video chat application for
-                                        iOS platform</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item" date-is='August 2014'>
-                            <h1>Full time internship at NTT Data Vietnam (2 months)</h1>
-                            <div class="container description-job">
-                                <div class="row">
-                                    <div class="col-2">Position</div>
-                                    <div class="col-10">Junior Java Developer</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2">Jobs</div>
-                                    <div class="col-10">Study and practise internal technologies about automation
-                                        development and
-                                        automation testing</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item" date-is='July 2014'>
-                            <h1>Part-time internship at Global CyberSoft (3 months)</h1>
-                            <div class="container description-job">
-                                <div class="row">
-                                    <div class="col-2">Position</div>
-                                    <div class="col-10">Junior Java Developer</div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2">Jobs</div>
-                                    <div class="col-10">Study and practise Software Development Lifecycle</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="cv-footer">
-        <div class="container div-footer">
-            <div class="row align-items-center justify-content-center div-row">
-                <div class="col left-footer-col">
-                    2019
-                </div>
-                <div class="col-6">
-                    <table class="tb-social">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <a href="https://www.facebook.com/fanlethanh" target="_blank">
-                                        <i class="fab fa-facebook ic-link"></i>
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://www.instagram.com/thanhphanle" target="_blank">
-                                        <i class="fab fa-instagram ic-link"></i>
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://github.com/thanhpl" target="_blank">
-                                        <i class="fab fa-github ic-link"></i>
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://stackoverflow.com/users/8417980/thanhphan" target="_blank">
-                                        <i class="fab fa-stack-overflow ic-link"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="col right-footer-col">
-                    Design by ThanhPL
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
-
+        </section>
+    </body>
 </html>
