@@ -45,8 +45,8 @@ section {
         top: 0;
         background-color: white;
         z-index: 100;
-        border-bottom: 0.5px solid #dddddd;
         font-size: 11pt;
+        box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
     }
 
     .cv-header {
