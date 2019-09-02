@@ -55,6 +55,11 @@ section {
         border-top: 0.5px solid #dddddd;
         margin-top: 60px;
     }
+
+    .nav-link:hover {
+        background-color: rgb(240, 240, 240);
+        color: #f37735;
+    }
 }
 
 .cv-body {
