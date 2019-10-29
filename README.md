@@ -1,4 +1,4 @@
-# ThanhPL's Profile
+# Personal Profile
 This is my personal profile that made in HTML and CSS.
 
 This project is using frameworks as:
