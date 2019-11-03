@@ -55,9 +55,14 @@ section {
         margin-top: 60px;
     }
 
+    .nav-link {
+        color: #333333;
+    }
+
     .nav-link:hover {
         background-color: rgb(240, 240, 240);
         color: #f37735;
+        border-bottom: 2px solid #f37735;
     }
 }
 
@@ -205,4 +210,8 @@ section {
 .block-quote:before {
     color: gray;
     content: open-quote;
+}
+
+.skill-group {
+    color: rgba(0, 0, 0, 0.7);
 }
