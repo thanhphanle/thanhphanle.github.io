@@ -26,6 +26,15 @@ section {
         background-color: white;
         border-top: 0.5px solid #dddddd;
     }
+
+    /* Hide social account text*/
+    #social-github-name {
+        display: none;
+    }
+
+    #social-so-name {
+        display: none;
+    }
 }
 
 /* Desktop */
