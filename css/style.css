@@ -149,7 +149,7 @@ section {
 }
 
 .h3-title {
-    border-bottom: 0.5px solid gray;
+    border-bottom: 0.5px solid #cccccc;
     color: #f37735;
     text-align: left;
     font-size: 18pt;
