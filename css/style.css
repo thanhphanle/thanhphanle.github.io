@@ -146,6 +146,7 @@ section {
 
 .h2-name {
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .h3-title {
@@ -167,6 +168,10 @@ section {
 
 .div-skill {
     text-align: left;
+}
+
+.ic {
+    opacity: 0.8;
 }
 
 .ic-link {
@@ -200,7 +205,6 @@ section {
 }
 
 .job-title {
-    margin-left: 10px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -239,4 +243,12 @@ section {
 
 .skill-group {
     color: rgba(0, 0, 0, 0.7);
+}
+
+.account-id-link {
+    color: black;
+}
+
+.account-id-link:hover {
+    color: black;
 }
