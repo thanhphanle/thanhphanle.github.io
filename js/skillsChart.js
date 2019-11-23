@@ -1,5 +1,5 @@
-google.charts.load('current', { packages: ['corechart', 'bar'] });
-google.charts.setOnLoadCallback(drawAnnotations);
+//google.charts.load('current', { packages: ['corechart', 'bar'] });
+//google.charts.setOnLoadCallback(drawAnnotations);
 
 function drawAnnotations() {
     var data = google.visualization.arrayToDataTable([

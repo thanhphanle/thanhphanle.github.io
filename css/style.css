@@ -247,3 +247,22 @@ section {
     padding-top: 3px;
     padding-bottom: 3px;
 }
+
+.skill-progress {
+    height: 12px;
+    opacity: 0.9;
+}
+
+.technical-title {
+    font-size: 0.8rem;
+    color: black;
+    opacity: 0.8;
+}
+
+.bg-beginner {
+    background-color: gray !important;
+}
+
+.bg-intermediate {
+    background-color: #5CB85C !important;
+}
