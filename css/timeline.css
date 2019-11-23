@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700');
 
 .timeline-container {
-    max-width: 800px;
-    width: 90%;
+    max-width: 720px;
+    width: 96%;
     margin: 0 auto;
 }
 
 .timeline-item {
     padding: 2.5em 0.8em 0.5em;
     position: relative;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.6);
     border-left: 2px solid rgba(0, 0, 0, 0.3);
 }
 .timeline-item h1 {
     font-size: 15pt;
     text-align: left;
+    color: black;
 }
 .timeline-item p {
     font-size: 1rem;

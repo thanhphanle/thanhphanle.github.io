@@ -84,7 +84,7 @@ section {
 }
 
 .cv-footer {
-    height: 8vh;
+    height: 12vh;
     background-color: #dddddd;
     border-bottom: 0.5px solid #dddddd;
 }
@@ -198,6 +198,7 @@ section {
 
 .description-job {
     text-align: left;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .job-title {
@@ -240,4 +241,9 @@ section {
 
 .skill-group {
     color: rgba(0, 0, 0, 0.7);
+}
+
+.row-description {
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
