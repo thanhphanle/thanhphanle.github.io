@@ -134,12 +134,7 @@ section {
     margin-right: 10px;
 }
 
-.tb-contact {
-    width: 100%;
-}
-
-.tb-contact tr td {
-    padding-left: 15px;
+.row-contact {
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -172,6 +167,7 @@ section {
 
 .ic {
     opacity: 0.8;
+    margin: auto;
 }
 
 .ic-link {
@@ -206,6 +202,7 @@ section {
 
 .job-title {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
 }
 
 .left-footer-col {
@@ -243,12 +240,4 @@ section {
 
 .skill-group {
     color: rgba(0, 0, 0, 0.7);
-}
-
-.account-id-link {
-    color: black;
-}
-
-.account-id-link:hover {
-    color: black;
 }
