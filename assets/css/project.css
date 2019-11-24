@@ -16,22 +16,22 @@ body {
     padding-right: 15px;
 }
 
-.btn-project-title {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
-    text-align: left;
-}
-
-.btn-project-title:hover {
-    text-decoration: none;
-    color: black;
-}
-
-.btn-project-title:active {
-    text-decoration: none;
-}
-
 .notice-content {
     color: gray;
+}
+
+.detail-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.project-title {
+    margin-top: 25px;
+}
+
+.project-body {
+    text-align: justify;
+    padding-left: 15px;
 }
