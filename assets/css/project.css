@@ -11,10 +11,16 @@ body {
     padding-bottom: 30px;
 }
 
+.project-header {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .btn-project-title {
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
+    text-align: left;
 }
 
 .btn-project-title:hover {
