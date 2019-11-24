@@ -250,7 +250,7 @@ section {
 
 .skill-progress {
     height: 12px;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .technical-title {
@@ -260,7 +260,7 @@ section {
 }
 
 .bg-beginner {
-    background-color: gray !important;
+    background-color: #f1b501!important;
 }
 
 .bg-intermediate {
