@@ -1,0 +1,31 @@
+body {
+    overflow-y: scroll;
+}
+
+.project-container {
+    max-width: 900px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.btn-project-title {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.btn-project-title:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-project-title:active {
+    text-decoration: none;
+}
+
+.notice-content {
+    color: gray;
+}

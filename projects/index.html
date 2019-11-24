@@ -4,9 +4,169 @@
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link rel="shortcut icon" href="./assets/images/thanhphan.jpg" />
+        <link rel="shortcut icon" href="../assets/images/thanhphan.jpg" />
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+            crossorigin="anonymous"></script>
+
+        <!-- Import bootstrap css from https://getbootstrap.com/ -->
+        <script 
+            type="text/javascript"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+        </script>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        />
+
+        <link rel="stylesheet" type="text/css" href="../assets/css/project.css" />
+
+        <title>Projects - Phan Le Thanh</title>
 </head>
 <body>
-    <p>List of my projects</p>
+    <div class="project-container">
+        <h3>My projects</h3>
+        <br>
+        <div>
+            <span>Notice:</span>
+            <em class="notice-content">I just want to summary and track my project that I have worked for several years. 
+                I don't want to mention any detail information about these projects, 
+                so I make sure there is no sensitive information in this site. Thank you.</em>
+        </div>
+        <br>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="heading6">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link btn-project-title" data-toggle="collapse" 
+                        data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                        Develop Payment Gateway for AIA Vietnam
+                    </button>
+                    </h5>
+                </div>
+          
+                <div id="collapse6" class="collapse show" aria-labelledby="heading6" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Team size: 3</p>
+                        <p>Technology stacks: Java Spring Boot, Oracle</p>
+                        <p>Description: Payment gateway is an application that will provide many methods to charge the money from many partners,
+                            includes international and local payment.
+                        </p>
+                        <p>My task: I'm the main developer for this project with supporting from a technical leader.
+                            Most of logic payment is built in Oracle store procedure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading5">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link btn-project-title collapsed" data-toggle="collapse" 
+                        data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                        Fiit.vn - A self project for fitness market
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Team size: 3</p>
+                        <p>Technology stacks: React.js (responsive front-end), iOS app, Java Spring Boot (back-end), PostgreSQL and CentOS 7.</p>
+                        <p>Description: We targeted on fitness market and tried some different ideas but the most success 
+                            was Fiit like an online personal trainer (PT). Fiit acts like an online trainer including: 
+                            workout exercises, nutrition program, tips and guide based on body factors. Fiit would collect user factors and 
+                            generate a specific workout program for every user (almost nobody like each other).</p>
+                        <p>My task: I was the only guy who took care of technology and product development. I designed a database and architect to make the application work.
+                            We used React.js, iOS app as front-ends and Java Spring Boot served as a API back-end (RESTful).
+                        </p>
+                        <p>Achievement: we gained over 1000 users, go live MVP web app and iOS app on Appstore, this idea also started generating revenue.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading4">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link btn-project-title collapsed" data-toggle="collapse" 
+                        data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                        Famipoint mobile application (both iOS and Android)
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Team size: 6</p>
+                        <p>Technology stacks: Xamarin for Android & iOS, Java (back-end), PostgreSQL</p>
+                        <p>Description: Famipoint is a client application for users who are FamilyMart customer.
+                            User buy any product and use Famipoint app scanning bar code to collect points. 
+                            They also may use Famipoint to receive promotion, coupon and redeem it.
+                        </p>
+                        <p>My task: I'm the main developer who build the mobile application in both platforms iOS and Android.
+                            We use Xamarin as a best choice for this app.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading3">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link btn-project-title collapsed" data-toggle="collapse" 
+                        data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                        iPoint - Loyalty point system
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Team size: 6</p>
+                        <p>Technology stacks: Java Web App, Oracle, PostgreSQL, API in SOAP & RESTful.</p>
+                        <p>Description: This project is cooperated with Toshiba partner, we clone and localize loyalty point system from Toshiba for Vietnamese market.
+                            In the next phases, we maintains and also customize this loyalty for every specific customer who will use the system for their business.
+                        </p>
+                        <p>My task: Localize and fix bugs for the system. I also customize it. One of my hardest task is I have to migrate database from Oracle to PostgreSQL 
+                            (reduce cost on purpose) and fortunate I have done successfully.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading2">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link btn-project-title collapsed" data-toggle="collapse" 
+                        data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                        Toll Gate - Transportation System
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Team size: 80 - 100</p>
+                        <p>Technology stacks: Java Web App, Oracle</p>
+                        <p>Description: </p>
+                        <p>My task: </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="heading1">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link btn-project-title collapsed" data-toggle="collapse" 
+                        data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                        Secure voice and video chat application in iOS platform
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Team size: 2</p>
+                        <p>Technology stacks: Java back-end, iOS mobile application</p>
+                        <p>Description: Our mission is finding out a pattern to build a secure voice and video chat application, specific in iOS platform.
+                            Some knowlegdes and frameworks: SIP, RTP, Kamalio, Pjsip.</p>
+                        <p>My task: Build Java back-end, deploy them and write the document for thesis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
