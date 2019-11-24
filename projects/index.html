@@ -12,11 +12,10 @@
         <meta property="og:description" content="This is my project list that I have worked for several years." />
         <!--<meta property="og:image" content="" />-->
 
+        <!-- Import bootstrap css from https://getbootstrap.com/ -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
             crossorigin="anonymous"></script>
-
-        <!-- Import bootstrap css from https://getbootstrap.com/ -->
         <script 
             type="text/javascript"
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
@@ -32,9 +31,26 @@
         <title>Projects - Phan Lê Thanh</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">@thanhpl</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Profile</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
     <div class="project-container">
         <div class="project-header">
-            <h3>My projects</h3>
+            <h3>Projects</h3>
             <br>
             <div>
                 <span>Notice:</span>

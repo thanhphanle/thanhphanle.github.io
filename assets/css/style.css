@@ -16,62 +16,19 @@ section {
         line-height: 1.5;
         background-color: rgb(240, 240, 240);
     }
-
-    .cv-navs {
-        visibility: hidden;
-        display: none;
-    }
-
-    .cv-header {
-        background-color: white;
-        border-top: 0.5px solid #dddddd;
-    }
-
-    /* Hide social account text*/
-    #social-github-name {
-        display: none;
-    }
-
-    #social-so-name {
-        display: none;
-    }
 }
 
 /* Desktop */
 @media only screen and (min-width: 768px) {
     body {
         text-align: justify;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
         line-height: 1.5;
         background-color: rgb(240, 240, 240);
     }
 
-    .cv-navs {
-        width: 100%;
-        position: fixed;
-        top: 0;
-        background-color: white;
-        z-index: 100;
-        font-size: 11pt;
-        box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
-    }
-
-    .cv-header {
-        height: 5vh;
-        background-color: white;
-        border-top: 0.5px solid #dddddd;
-        margin-top: 60px;
-    }
-
-    .nav-link {
-        color: #333333;
-    }
-
-    .nav-link:hover {
-        background-color: rgb(240, 240, 240);
-        color: #f37735;
-        border-bottom: 2px solid #f37735;
+    .cv-body {
+        margin-top: 10px;
     }
 }
 
@@ -81,6 +38,7 @@ section {
     background-color: rgb(250, 250, 250);
     */
     background-color: white;
+    border-top: 0.5px solid #dddddd;
 }
 
 .cv-footer {
