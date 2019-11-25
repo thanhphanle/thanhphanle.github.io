@@ -11,7 +11,7 @@ body {
     padding-bottom: 30px;
 }
 
-.project-header {
+.project-info {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -27,12 +27,24 @@ body {
     padding-bottom: 30px;
 }
 
-.project-title {
+.project-header {
     margin-top: 25px;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.project-time {
+    font-size: 0.8rem;
+    color: gray;
 }
 
 .project-body {
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
 }
