@@ -48,3 +48,25 @@ body {
     padding-right: 10px;
     padding-top: 10px;
 }
+
+.tech-tag-p {
+    text-align: left;
+}
+
+.tech-tag {
+    display: inline-block;
+    padding: 5px;
+    background-color: #ffe8db;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fdd6c1;
+    text-align: center;
+    line-height: 1;
+    white-space: nowrap;
+}
