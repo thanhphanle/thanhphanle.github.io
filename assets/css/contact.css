@@ -1,0 +1,13 @@
+.contact-container {
+    max-width: 760px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contact-info {
+    padding-left: 15px;
+    padding-right: 15px;
+}
