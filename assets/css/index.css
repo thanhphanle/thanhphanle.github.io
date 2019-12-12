@@ -1,0 +1,209 @@
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+/* Mobile or Tablet */
+@media only screen and (max-width: 768px) {
+    .body-center {
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    .cv-body {
+        margin-top: 10px;
+    }
+}
+
+.cv-body {
+    min-height: 150vh;
+    background-color: white;
+    border-top: 0.5px solid #dddddd;
+}
+
+.cv-footer {
+    height: 12vh;
+    background-color: #dddddd;
+    border-bottom: 0.5px solid #dddddd;
+}
+
+.div-header {
+    padding-top: 18px;
+    text-align: center;
+}
+
+.div-footer {
+    color: gray;
+    font-size: 13px;
+    min-height: 100%;
+    height: 100%;
+}
+
+.div-body {
+    padding: 10px;
+}
+
+.img-profile {
+    width: 45%;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.div-name {
+    margin-top: 30px;
+}
+
+.body-left {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.body-right {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.body-center {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.row-contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.h2-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.h3-title {
+    border-bottom: 0.5px solid #cccccc;
+    color: #f37735;
+    text-align: left;
+    font-size: 18pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.fas {
+    color: rgb(100, 100, 100);
+}
+
+.tb-social {
+    width: 100%;
+}
+
+.div-skill {
+    text-align: left;
+}
+
+.ic {
+    opacity: 0.8;
+    margin: auto;
+}
+
+.ic-link {
+    font-size: 16pt;
+    color: gray;
+}
+
+.social-img-link {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.social-img-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.social-img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.div-row {
+    min-height: 100%;
+    height: 100%;
+}
+
+.description-job {
+    text-align: left;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.job-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.left-footer-col {
+    text-align: left;
+}
+
+.right-footer-col {
+    text-align: right;
+}
+
+.education-div {
+    text-align: left;
+}
+
+.item-row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.block-quote {
+    background: #f9f9f9;
+    border-left: 6px solid #ccc;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.block-quote:before {
+    color: gray;
+    content: open-quote;
+}
+
+.skill-group {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.row-description {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.skill-progress {
+    height: 12px;
+    opacity: 0.8;
+}
+
+.technical-title {
+    font-size: 0.8rem;
+    color: black;
+    opacity: 0.8;
+}
+
+.bg-beginner {
+    background-color: #f1b501!important;
+}
+
+.bg-intermediate {
+    background-color: #5CB85C !important;
+}
