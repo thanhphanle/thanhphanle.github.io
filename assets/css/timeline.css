@@ -7,7 +7,7 @@
 }
 
 .timeline-item {
-    padding: 2.5em 0.8em 0.5em;
+    padding: 2em 0.8em 0.5em;
     position: relative;
     color: rgba(0, 0, 0, 0.6);
     border-left: 2px solid rgba(0, 0, 0, 0.3);
@@ -32,11 +32,8 @@
     content: attr(date-is);
     position: absolute;
     left: 1em;
-    font-weight: bold;
     top: 0.8em;
     display: block;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
     font-size: 0.9rem;
 }
 .timeline-item::after {
