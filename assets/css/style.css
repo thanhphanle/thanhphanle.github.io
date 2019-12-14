@@ -46,3 +46,21 @@ section {
     box-sizing: border-box;
     vertical-align: baseline;
 }
+
+
+.social-img-link {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.social-img-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.social-img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
