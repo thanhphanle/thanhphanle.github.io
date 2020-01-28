@@ -86,7 +86,7 @@ body {
 }
 
 .h3-title {
-    border-bottom: 0.5px solid #cccccc;
+    border-bottom: 1px dotted #cccccc;
     color: #f37735;
     text-align: left;
     font-size: 18pt;
