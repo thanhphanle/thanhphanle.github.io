@@ -22,11 +22,13 @@ body {
     min-height: 150vh;
     background-color: white;
     border-top: 0.5px solid #dddddd;
+    box-shadow: 0 2px 4px 2px #E3E9F3;
+    border-radius: 3px;
 }
 
 .cv-footer {
     height: 12vh;
-    background-color: #dddddd;
+    
     border-bottom: 0.5px solid #dddddd;
 }
 
