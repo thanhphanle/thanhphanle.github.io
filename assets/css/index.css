@@ -146,8 +146,8 @@ body {
 }
 
 .item-row {
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .block-quote {
@@ -192,4 +192,10 @@ body {
 
 .bg-intermediate {
     background-color: #5CB85C !important;
+}
+
+.sub-title {
+    font-size: 0.8rem;
+    color: black;
+    opacity: 0.8;
 }
