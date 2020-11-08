@@ -5,8 +5,10 @@ a {
 section {
     margin: auto;
     max-width: 960px;
+    /*
     border-left: 0.5px solid #dddddd;
     border-right: 0.5px solid #dddddd;
+    */
 }
 
 /* Mobile or Tablet */

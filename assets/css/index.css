@@ -28,8 +28,9 @@ body {
 
 .cv-footer {
     height: 12vh;
-    
+    /*
     border-bottom: 0.5px solid #dddddd;
+    */
 }
 
 .div-header {
