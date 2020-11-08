@@ -33,7 +33,18 @@ section {
 .navbar {
     font-size: 1rem;
     padding: .25rem 1rem;
+    /*
     background-color: #333333 !important;
+    */
+    background: linear-gradient(to top, #CFDEF3, #E0EAFC);
+}
+
+.navbar-brand {
+    color: #133337 !important;
+}
+
+.nav-link {
+    color: #133337 !important;
 }
 
 .nav-header {
@@ -42,7 +53,7 @@ section {
     left: 0;
     width: 100%;
     z-index: 5050;
-    background-color: #fafafb;
+    
     transition: box-shadow cubic-bezier(.165, .84, .44, 1) .25s;
     height: 49px;
     box-sizing: border-box;
