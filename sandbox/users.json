@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "firstName": "John",
         "lastName": "Brook",
         "email": "john.brook@gmail.com",
@@ -8,11 +9,21 @@
         "address": ""
     },
     {
+        "id": "2",
         "firstName": "Emily",
         "lastName": "Kim",
         "email": "emily.kim@gmail.com",
         "phone": "0987654321",
         "gender": "female",
+        "address": ""
+    },
+    {
+        "id": "3",
+        "firstName": "Michael",
+        "lastName": "Hart",
+        "email": "michael.hart@gmail.com",
+        "phone": "0987987987",
+        "gender": "male",
         "address": ""
     }
 ]
