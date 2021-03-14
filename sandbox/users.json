@@ -1,0 +1,18 @@
+[
+    {
+        "firstName": "John",
+        "lastName": "Brook",
+        "email": "john.brook@gmail.com",
+        "phone": "0123456789",
+        "gender": "male",
+        "address": ""
+    },
+    {
+        "firstName": "Emily",
+        "lastName": "Kim",
+        "email": "emily.kim@gmail.com",
+        "phone": "0987654321",
+        "gender": "female",
+        "address": ""
+    }
+]
