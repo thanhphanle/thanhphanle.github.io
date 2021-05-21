@@ -201,3 +201,8 @@ body {
     color: black;
     opacity: 0.8;
 }
+
+.certificate-container {
+    max-width: 760px;
+    margin-left: 0px;
+}
