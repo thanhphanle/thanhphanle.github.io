@@ -4,7 +4,7 @@ a {
 
 section {
     margin: auto;
-    max-width: 960px;
+    max-width: 1000px;
     /*
     border-left: 0.5px solid #dddddd;
     border-right: 0.5px solid #dddddd;
@@ -14,7 +14,7 @@ section {
 /* Mobile or Tablet */
 @media only screen and (max-width: 768px) {
     body {
-        padding-top: 49px;
+        padding-top: 5px;
         line-height: 1.5;
         font-size: 1.1rem;
     }
@@ -23,7 +23,7 @@ section {
 /* Desktop */
 @media only screen and (min-width: 768px) {
     body {
-        padding-top: 49px;
+        padding-top: 15px;
         padding-bottom: 20px;
         line-height: 1.5;
         font-size: 1.1rem;
