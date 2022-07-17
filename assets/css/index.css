@@ -50,13 +50,15 @@ body {
 }
 
 .img-profile {
-    width: 50%;
+    width: 70%;
     border-radius: 50%;
-    margin-top: 40px;
+    border: 1px solid #b4b9bf;
+    margin-top: 20px;
+    box-shadow: 0 0 0 1px #d0d7de;
 }
 
 .div-name {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .body-left {
@@ -129,11 +131,6 @@ body {
     color: rgba(0, 0, 0, 0.8);
 }
 
-.job-title {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2rem;
-}
-
 .left-footer-col {
     text-align: left;
 }
@@ -166,6 +163,10 @@ body {
 .block-quote:before {
     color: gray;
     content: open-quote;
+}
+
+.block-quote-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .skill-group {
