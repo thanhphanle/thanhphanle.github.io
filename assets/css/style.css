@@ -4,7 +4,7 @@ a {
 
 section {
     margin: auto;
-    max-width: 1000px;
+    max-width: 1080px;
     /*
     border-left: 0.5px solid #dddddd;
     border-right: 0.5px solid #dddddd;
@@ -27,6 +27,11 @@ section {
         padding-bottom: 20px;
         line-height: 1.5;
         font-size: 1.1rem;
+        /* Dotted grid background css 
+            Refer to https://stackoverflow.com/questions/58391201/how-to-create-a-dotted-grid-graph-sheet-background-using-css 
+        */
+        background: radial-gradient(gray 1px, transparent 1px);
+        background-size : 25px 25px;
     }
 }
 
