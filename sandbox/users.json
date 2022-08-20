@@ -2,11 +2,11 @@
     {
         "id": "1",
         "firstName": "John",
-        "lastName": "Brook",
-        "email": "john.brook@gmail.com",
+        "lastName": "Ronaldo",
+        "email": "john.ronaldo@gmail.com",
         "phone": "0123456789",
         "gender": "male",
-        "address": ""
+        "address": "123 Road"
     },
     {
         "id": "2",
@@ -15,15 +15,15 @@
         "email": "emily.kim@gmail.com",
         "phone": "0987654321",
         "gender": "female",
-        "address": ""
+        "address": "456 Road 2"
     },
     {
         "id": "3",
         "firstName": "Michael",
-        "lastName": "Hart",
-        "email": "michael.hart@gmail.com",
+        "lastName": "Thanh",
+        "email": "michael.Thanh@gmail.com",
         "phone": "0987987987",
         "gender": "male",
-        "address": ""
+        "address": "89 Road 3"
     }
 ]
