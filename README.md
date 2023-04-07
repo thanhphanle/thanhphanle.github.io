@@ -8,4 +8,4 @@ This project is using resources such as:
 
 Color pallete: [Metro UI](https://www.color-hex.com/color-palette/700)
 
-Thanks and hosted by GitHub Pages: https://thanhpl.github.io
+Thanks and hosted by GitHub Pages: https://jguzman.github.io
