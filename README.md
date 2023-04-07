@@ -1,4 +1,4 @@
-# thanhpl.github.io
+# jguzman.github.io
 This is my personal profile that made in static HTML, CSS and javascript. I want to save my journeys about Software Development into this site.
 
 This project is using resources such as:
